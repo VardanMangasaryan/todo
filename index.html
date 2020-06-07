@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+<div class="shadow">
+    <div class="container">
+        <h1 class="text-center display-1">TODO List</h1>
+        <div class="row">
+            <form id=form class="col-8 mx-auto">
+                <div class="input-group">
+                    <input id="input" class="form-control" placeholder="Add your TODO" value="">
+                    <span> <button id="submit" type="button" class="btn btn-primary">Submit</button></span>
+                </div>
+            </form>
+        </div>
+        <div id="list" class="row">
+                <ul id="items" class="col-8 mx-auto">
+<!--                    <li><input type="checkbox" aria-label="Checkbox for following text input">qfg</li>-->
+<!--                    <li><input type="checkbox" aria-label="Checkbox for following text input">wqgwq</li>-->
+<!--                    <li><input type="checkbox" aria-label="Checkbox for following text input">gwqwgq</li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
 
-<a>test</a>
-
+</div>
+<script src="app.js"></script>
 </body>
 </html>

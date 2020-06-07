@@ -1,0 +1,44 @@
+body {
+    background-image: url("images/workshop-2Kqhw3qST0o-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.display-1 {
+    margin-top: 11rem;
+    padding-bottom: 4rem;
+    color: aliceblue;
+}
+
+.btn-primary {
+    margin-left: 2rem;
+}
+
+
+.shadow {
+    background-color: rgba(3, 3, 3, 0.5);
+    min-width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+}
+
+.row ul{
+    color: aliceblue;
+    font-size: 30px;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.row ul li {
+    border-bottom: 1px solid aliceblue;
+    padding-top: 1.5rem;
+    padding-bottom: 0.3rem;
+}
+
+input[type=checkbox]{
+    float: right;
+    margin-top: 1.07rem;
+    height: 39px;
+    width: 30px;
+}
