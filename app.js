@@ -3,9 +3,16 @@ window.onload = function () {
     let input = document.getElementById("input");
     let submit = document.getElementById("submit");
     let items = document.getElementById("items");
+    
     let id = 1;
 
     submit.addEventListener("click", addItem);
+    input.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            addItem()
+        }
+    });
     items.addEventListener("click", deleteItem);
 
     function addItem() {
